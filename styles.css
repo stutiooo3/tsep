@@ -1,0 +1,54 @@
+/* styles.css */
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f5f5f5;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	max-width: 600px;
+	margin: 50px auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.title {
+	text-align: center;
+	margin-bottom: 30px;
+}
+#location-form {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+#location {
+	flex-grow: 1;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+#location-form button {
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.forecast {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 20px;
+	background-color: #f5f5f5;
+	margin-top: 30px;
+}
+.forecast h2 {
+	margin-top: 0;
+}
+.forecast p {
+	margin-bottom: 0;
+}
